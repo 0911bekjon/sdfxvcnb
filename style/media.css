@@ -298,9 +298,11 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
     }
+    /* about */
     .conteiner .about .about_box h1 {
         font-size: 50px;
     }
+    /* book */
     .conteiner .book .book_box a {
         position: relative;
         top: -10px;
@@ -311,6 +313,7 @@
         height: 70px;
         animation: none;
     }
+    /* menu */
     .conteiner .menu .menu_logo {
         width: 70px;
         height: 70px;
