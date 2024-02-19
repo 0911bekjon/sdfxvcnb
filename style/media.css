@@ -266,3 +266,57 @@
         font-size: 40px;
       }
   } 
+  @media screen and (max-width: 550px) {
+    /* header */
+    .conteiner header nav .navlinks ul {
+        gap: 3px;
+    }
+    .conteiner header nav .logIn  {
+        gap: 10px;
+    }
+    .conteiner header nav .logo img {
+        width: 80px;
+    }
+    .conteiner header nav .navlinks ul li a {
+        font-size: 11px;
+    }
+    .conteiner header nav .logIn a {
+        font-size: 11px;
+    }
+    .conteiner header .headerContent .header_title .p_text {
+        font-size: 17px;
+    }
+    .conteiner header .headerContent .header_title img {
+        width: 30px;
+    }
+    .conteiner header .headerContent .header_title h1 {
+        font-size: 50px;
+    }
+    .conteiner header .headerContent .header_title p {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    .conteiner .about .about_box h1 {
+        font-size: 50px;
+    }
+    .conteiner .book .book_box a {
+        position: relative;
+        top: -10px;
+        padding: 8px 138px;
+    }
+    .conteiner .book .book_logo {
+        width: 70px;
+        height: 70px;
+        animation: none;
+    }
+    .conteiner .menu .menu_logo {
+        width: 70px;
+        height: 70px;
+        animation: none;
+    }
+    .conteiner .menu ul li a {
+        font-size: 30px;
+    }
+  }
